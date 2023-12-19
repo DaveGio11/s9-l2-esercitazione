@@ -7,6 +7,7 @@ import { Alert } from "react-bootstrap/Alert";
 import MyNav from "./component/componentNav";
 import MyFooter from "./component/componentFooter";
 import MyCard from "./component/myCard";
+import MyAlert from "./component/componentAlert";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <header>
         <MyNav />
       </header>
+      <div>
+        <MyAlert />
+      </div>
       <main>
         <MyCard />
       </main>
