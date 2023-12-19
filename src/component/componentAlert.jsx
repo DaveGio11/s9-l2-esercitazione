@@ -14,7 +14,7 @@ const MyAlert = () => {
     return () => clearTimeout(timeoutId);
   }, []); // L'array vuoto [] indica che l'effetto viene eseguito solo al mount del componente
 
-  return <>{showAlert && <Alert variant="info">Questo è un messaggio di alert! Si chiuderà fra 3 secondi.</Alert>}</>;
+  return <>{showAlert && <Alert variant="info">Welcome!</Alert>}</>;
 };
 
 export default MyAlert;
